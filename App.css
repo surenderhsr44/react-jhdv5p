@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  grid-gap: 10px;
+  padding: 10px;
+  position: abslute;
+  cursor: pointer;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+  
+}
+.gallery:hover {
+  border: 1px solid #777;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  height: 200px;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+.fileInput{
+  position: relative;
+  padding-top: 150px;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.butnpos{
+  position: relative;
+    top: 100px;
+    left: 20px;
+}
