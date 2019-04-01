@@ -40,9 +40,11 @@ class DisplayImage extends Component{
     render(){
         console.log(this.props.URL)
         return(
+
             <div className='gallery'>
+             <h3>Date : {this.props.currentTimeDate}</h3>
                 <img src={this.props.URL} onClick={this.openModal} style={{width:'300px', float:"left"}}  alt="image load" /><hr />
-                <h3>Date : {this.props.currentTimeDate}</h3>
+               
                 <div>
         <Modal
           isOpen={this.state.modalIsOpen}

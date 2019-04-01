@@ -62,7 +62,7 @@ class App extends Component {
     if (e.target.files[0]) {
       reader.readAsDataURL(file)
     }
-
+  this.closeModal();
   }
   render() {
     const { gallery } = this.state;
